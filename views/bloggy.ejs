@@ -1,0 +1,10 @@
+<%- include("./partials/header.ejs")%>
+<div class="container col-10 ">
+    <div class="row">
+            <h1 class="mt-5"><%=blog.blogTitle%></h1>
+            <h6><%=blog.authorName%></h6>
+            <img class="m-5" src="<%=blog.blogCover%>">
+            <p><%=blog.blogBody%></p>
+    </div>
+</div>
+<%- include("./partials/footer.ejs")%>

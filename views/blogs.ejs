@@ -1,0 +1,9 @@
+<%- include("./partials/header.ejs")%>
+<div class="container col-10">
+<ul>
+<%for (var i = 0; i<blogs.length; i++){%>
+    <li><a class="link-opacity-100"  href="/bloggy/<%= i %>"><%=blogs[i]["blogTitle"]%></a></li>
+    <%}%>
+</ul>
+</div>
+<%- include("./partials/footer.ejs")%>
